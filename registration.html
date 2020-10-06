@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--- Written from scratch by Kevin Cole Corpeny
+    tel: +1 (816)678-2772
+    email: kccwwd@umsystem.edu
+-->
+<html>
+<head>
+    <title>Registration</title>
+    <style>
+        td{
+            border:none;
+            padding:4px;
+        }
+        th{
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!--- Login Information -->
+
+    <table border="1" style="border-collapse: collapse; width:100%;margin-left:10px;margin-right: 10px">
+        <th style="align-self: auto" colspan="2">Login Information</th>
+        <tr>
+            <td style="padding-left:25px">
+                Username:
+                <input type=text>
+            </td>
+        </tr>
+        <tr><td></td></tr>
+        <tr style="padding-bottom:15px">
+            <td style="padding-left:25px">
+                Password: 
+                <input type=text>
+            </td>
+        </tr>
+    </table>
+    
+    <!--- Personal Information -->
+    <table border="1" style="border-collapse: collapse; width:100%;margin-top: 50px; margin-left:10px;margin-right: 10px">
+        <th colspan="2">Personal Information</th>
+        <!--- Position -->
+        <tr>
+            <td style="padding-left: 25px;">Position:&nbsp;&nbsp;&nbsp;&nbsp;
+                <select>
+                    <option value="Engineer">Engineer</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Lawyer">Lawyer</option>
+                    <option value="Business Exec">Business Executive</option>
+                    <option value="Boxes">Little Boxes</option>
+                </select>
+            </td>
+        </tr>
+        <!--- Gender -->
+        <tr>
+            <td style="padding-left: 25px">Gender:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="male" value="Male"><label for="male">Male</label>
+                <input type="radio" id="fem" value="Female"><label for="fem">Female</label>
+                <input type="radio" id="other" value="Other"><label for="other">Other</label>
+                <input type="radio" id="no" value="no"><label for="no">Prefer not to say</label>
+            </td>
+        </tr>
+    </table>
+
+</body>
