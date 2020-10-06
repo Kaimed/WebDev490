@@ -55,12 +55,33 @@
         <!--- Gender -->
         <tr>
             <td style="padding-left: 25px">Gender:&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="radio" id="male" value="Male"><label for="male">Male</label>
-                <input type="radio" id="fem" value="Female"><label for="fem">Female</label>
-                <input type="radio" id="other" value="Other"><label for="other">Other</label>
-                <input type="radio" id="no" value="no"><label for="no">Prefer not to say</label>
+                <input name ="K" type="radio" id="male" value="Male"><label for="male">Male</label>
+                <input name ="K" type="radio" id="fem" value="Female"><label for="fem">Female</label>
+                <input name ="K" type="radio" id="other" value="Other"><label for="other">Other</label>
+                <input name ="K" type="radio" id="no" value="no"><label for="no">Prefer not to say</label>
+            </td>
+        </tr>
+        <!--- Contact Preference -->
+        <tr>
+            <td style="padding-left: 25px">Contact Preference:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="email"><label for="email">E-mail</label>
+                <input type="checkbox" id="phone"><label for="phone">Phone</label>
+            </td>
+        </tr>
+        <!--- Picture -->
+        <tr>
+            <td style="padding-left: 25px">
+                <label for="img">Picture:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="file" id="img" accept="image/*">
+            </td>
+        </tr>
+        <!--- Date of Birth -->
+        <tr>
+            <td style="padding-left: 25px">
+                <label for="DOB">Date of Birth:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="DOB">
             </td>
         </tr>
     </table>
-
+    <input style="margin-left: 10px;margin-top:5px" type="submit">
 </body>
